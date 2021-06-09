@@ -30,6 +30,7 @@ public class Boulangerie {
 		System.out.println(nbreGateaux + " Gateaux : prix " + (nbreGateaux * prixGateaux));
 
 		System.out.println("total = " + total);
+		sc.close();
 	}
 
 }
