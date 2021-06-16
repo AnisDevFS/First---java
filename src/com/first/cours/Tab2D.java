@@ -10,6 +10,8 @@ public class Tab2D {
 				{ 100 , 200 , 300 , 400} 
 				};
 		
+		System.out.println("gg");
+		
 		
 		for (int i = 0 ; i < tab_2D.length ; i++) {
 			
