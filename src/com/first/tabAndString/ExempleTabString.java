@@ -5,6 +5,11 @@ public class ExempleTabString {
 	public static void main(String[] args) {
 		
 		String str = "Formation";
+		char[] mom = str.toCharArray();
+		str = String.valueOf(mom);
+		System.out.println(str);
+		
+		
 		System.out.println(str);
 		System.out.println(str.length());
 		System.out.println(str.charAt(0));
