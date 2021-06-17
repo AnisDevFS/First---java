@@ -13,7 +13,22 @@ public class TriTabEx9 {
 		System.out.println(Arrays.toString(tabDeInt));
 		
 		System.out.println("After sort");
+		
+		
+		// 
+		
 		Arrays.sort(tabDeInt);
+
+		char c = 'a';
+//		
+//		String C = c + "";
+//		
+//		C = C.toUpperCase();
+//		
+		char cMaj = Character.toUpperCase(c);
+		
+		
+		
 		System.out.println(Arrays.toString(tabDeInt));
 		
 		int compteur = 0;
