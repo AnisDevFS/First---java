@@ -17,12 +17,36 @@ public class Ex1a6 {
 		plusLongStringSup10("éerao");
 		System.out.println("-----------");
 		
-		String[] noms  = { "cristina", "Dalia", "Imen" , "Inga" , "Nico" 
-				, "mehdi" , "adil" , "pach", "Séba" };
+		String[] noms  = { "cristina", "dalia", "imen" , "Inga" , "Nico" 
+				, "mehdi" , "adil" , "pach", "Sébastien" };
 		System.out.println(quatreChars(noms));
+		System.out.println("-----------");
 		
+		System.out.println(strQuiCommenceParMaj(noms));
 		
 	}
+	
+	
+//	Ex 6: Créer une méthode qui prend en paramètres un tableau de String et 
+//		qui retourne le nombre de String qui commence par une majuscule
+	static int strQuiCommenceParMaj(String[] tabStr) {
+		
+		int compt = 0;
+		for (String s : tabStr) {
+			
+			if (Character.isUpperCase(s.charAt(0)))  compt++;
+		}
+		return compt;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 //	Ex 5: Créer une méthode qui prend en paramètres un tableau de String et 
