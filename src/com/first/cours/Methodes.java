@@ -62,6 +62,5 @@ public class Methodes {
 			return i* -1;
 		else return i;
 	}
-	
 
 }
