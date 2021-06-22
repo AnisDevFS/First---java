@@ -2,9 +2,7 @@ package com.first.collections;
 
 import java.util.ArrayList;
 
-//import com.sun.tools.javac.util.StringUtils;
-
-//import com.sun.tools.javac.util.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 public class ExArraylist {
 
@@ -30,8 +28,8 @@ public class ExArraylist {
 				String deuxPremiers = string.substring(0, 2);
 				if (string.length() == 10 ) {
 					if (deuxPremiers.equals("04") || deuxPremiers.equals("06") || deuxPremiers.equals("07")) {
-						if (!string.matches(".*[a-z].*") && string.matches(".*[1-9].*")) {
-//						if (StringUtils.isNumeric(string)) { // demain cela fonctionnera
+//						if (!string.matches(".*[a-z].*") && string.matches(".*[1-9].*")) {
+						if (StringUtils.isNumeric(string)) { // demain cela fonctionnera
 //							if (Character.isDigit(0))
 							numerosFrancais.add(string);
 						}
