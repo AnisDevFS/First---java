@@ -1,0 +1,35 @@
+Notre tableau int[][] tab_2D = { 
+	{ 1 , 2 , 3 , 4} ,  
+	{ 11 , 12 , 13 , 14 , 15} , 
+	{ 100 , 200 , 300 , 400} 
+};
+
+tab_2D.length = 3
+tab_2D[0][4] = ERREUR
+tab_2D[1].length = 5
+tab_2D[1][5] = ERREUR
+tab_2D[1][4] = 15
+tab_2D[0][1] = 2
+tab_2D[2][2] = 300
+tab_2D[2].length = 4
+
+
+Notre tableau String[][] tabStr_2D = {  
+	{ "11" , "12" , "13" , "14" , "15"} , 
+	{ "é100" , "jùpih200" , "300sdfev" , "400"} 
+};
+
+tab_2DStr.length = 2
+tab_2DStr[0][4] = "15"
+tab_2DStr[1].length = 4
+tab_2DStr[0][1] = "12"
+
+dernier string du 2eme tableau
+tab_2DStr[1][tab_2DStr[1].length - 1] = "400"
+
+dernier char du 2 eme string du 2 eme tableau
+tab_2DStr[1][1].charAt( tab_2DStr[1][1].length() - 1) 
+
+
+
+voir si un élement contient une Maj
